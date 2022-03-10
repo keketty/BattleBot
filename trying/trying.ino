@@ -69,7 +69,7 @@ void stopRobot(){
   analogWrite(rightBack, 0);
    analogWrite(leftAhead, 0);
    analogWrite(rightAhead, 0);
-   analogWrite(leftBack, 0);
+   analogWrite(leftBack, 200);
   }
 
 void turnRight(){
